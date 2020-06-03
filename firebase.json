@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "pencil-intern-app",
+      "public": "dist/pencil-intern-app",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

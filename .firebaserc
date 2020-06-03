@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pencil-intern-app": {
+      "hosting": {
+        "pencil-intern-app": [
+          "pencil-intern-app"
+        ]
+      }
+    }
+  }
+}

@@ -117,8 +117,13 @@
               "devServerTarget": "pencil-intern-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "pencil-intern-app"
 }
