@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
+## Components
+- Login Component is used for logins.
+- AuthGuard checks if a user has already been authenticated.
+- User Component contains the area that authenticated users will have access to.
+
+Modified the existing [AngularFire project](https://github.com/angulartemplates/firebase-authentication-with-angular-7) to build the user authentication feature.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
